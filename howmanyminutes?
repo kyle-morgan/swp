@@ -1,0 +1,8 @@
+# Calculate the number of minutes in the given amount of days
+Days = float(input("Day(s): "))
+  hoursinday = 24
+  mininhour = 60
+min_in_day = Days * hoursinday * mininhour
+
+# Display the minutes in days
+print("The number of minutes in", float(Days), "day(s) is", round(min_in_day), "minutes.")
